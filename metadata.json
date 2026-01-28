@@ -1,0 +1,8 @@
+{
+  "name": "Codefield",
+  "description": "A minimalist platform connecting startup founders with coders through real-world project collaboration, replacing algorithmic hurdles with practical skill matchmaking.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
