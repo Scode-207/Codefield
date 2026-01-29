@@ -37,9 +37,9 @@ export const MOCK_CODERS: CoderProfile[] = [
     bio: 'Former infra engineer at a scaling unicorn. Obsessed with elegant abstractions and high-concurrency performance.',
     experience: '8 years',
     avatar: 'https://picsum.photos/seed/elias/200/200',
-    rate: '$120/hr',
+    rate: '₹1,500/hr',
     projects: [
-      { id: 'p1', title: 'Rust-based Query Engine', description: 'Built a custom OLAP engine for sub-second metrics.', difficulty: 'Complex', status: 'Completed', bounty: '$5000' }
+      { id: 'p1', title: 'Rust-based Query Engine', description: 'Built a custom OLAP engine for sub-second metrics.', difficulty: 'Complex', status: 'Completed', bounty: '₹12,500' }
     ]
   },
   {
@@ -49,9 +49,9 @@ export const MOCK_CODERS: CoderProfile[] = [
     bio: 'Crafting interfaces that feel invisible. I focus on motion design and accessibility for early-stage B2B SaaS.',
     experience: '5 years',
     avatar: 'https://picsum.photos/seed/aria/200/200',
-    rate: '$90/hr',
+    rate: '₹950/hr',
     projects: [
-      { id: 'p2', title: 'Nebula UI Kit', description: 'An open-source design system for data-heavy apps.', difficulty: 'Medium', status: 'Completed', bounty: '$3000' }
+      { id: 'p2', title: 'Nebula UI Kit', description: 'An open-source design system for data-heavy apps.', difficulty: 'Medium', status: 'Completed', bounty: '₹6,400' }
     ]
   }
 ];
@@ -88,7 +88,7 @@ export const MOCK_SOCIAL_POSTS: SocialPost[] = [
     problem: 'Our real-time ingestion pipeline is dropping 15% of packets under peak load. Need a systems architect to help refactor the Go-buffer.',
     applicants: 12,
     time: '2h ago',
-    bounty: '$4,200',
+    bounty: '₹11,200',
     valuation: '$4.2M'
   },
   {
@@ -98,7 +98,7 @@ export const MOCK_SOCIAL_POSTS: SocialPost[] = [
     problem: 'Typo in the landing page CSS is breaking the mobile layout on Safari. Quick fix needed for the hero section.',
     applicants: 42,
     time: '4h ago',
-    bounty: '$45',
+    bounty: '₹1,500',
     valuation: '$0.8M'
   },
   {
@@ -108,7 +108,7 @@ export const MOCK_SOCIAL_POSTS: SocialPost[] = [
     problem: 'Deploying our first LLM mesh. The orchestration logic is complex. Who has experience with edge-runtime distribution?',
     applicants: 15,
     time: '6h ago',
-    bounty: '$12,500',
+    bounty: '₹14,500',
     valuation: '$55.0M'
   },
   {
@@ -118,7 +118,7 @@ export const MOCK_SOCIAL_POSTS: SocialPost[] = [
     problem: 'Missing a single validation hook in our onboarding flow. Users can bypass the KYC check.',
     applicants: 5,
     time: '12h ago',
-    bounty: '$180',
+    bounty: '₹2,100',
     valuation: '$1.4M'
   }
 ];

@@ -11,7 +11,7 @@ const GlobalNetwork: React.FC = () => {
       name: "Nexus AI",
       tagline: "Neural Infrastructure",
       roadblock: "Tensor mismatch in inference engine under high concurrency. Latency spike at 10k RPS.",
-      bounty: "$8,400",
+      bounty: "₹13,200",
       valuation: "$12.5M",
       founder: "Marcus J."
     },
@@ -19,7 +19,7 @@ const GlobalNetwork: React.FC = () => {
       name: "Verda",
       tagline: "Precision Agritech",
       roadblock: "Broken environment variable in our staging config. Deployment is stuck in a loop.",
-      bounty: "$25",
+      bounty: "₹1,200",
       valuation: "$0.4M",
       founder: "Sarah L."
     },
@@ -27,7 +27,7 @@ const GlobalNetwork: React.FC = () => {
       name: "Lumina",
       tagline: "Quantum Security",
       roadblock: "Entropy depletion in random number generator. Seeking low-level C++ architect for core optimization.",
-      bounty: "$2,800",
+      bounty: "₹7,600",
       valuation: "$4.2M",
       founder: "Kenji T."
     }

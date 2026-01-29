@@ -1,8 +1,10 @@
 
-import { GoogleGenAI, Type } from "@google/genai";
+import { GoogleGenAI } from "@google/genai";
 import { Message } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || '' });
+// Always use the named parameter for API Key as per SDK rules.
+// The build tool (Vite) will now correctly inject this value from your environment.
+const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
 export const getMatchmakingAdvice = async (projectDescription: string, coderProfiles: string) => {
   try {
