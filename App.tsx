@@ -194,10 +194,17 @@ const App: React.FC = () => {
         onClose={() => setIsWaitlistOpen(false)} 
       />
 
-      <footer className="py-32 border-t border-gray-50 text-center bg-white">
+      <footer className="py-32 border-t border-gray-50 text-center bg-white flex flex-col items-center">
         <div className="text-3xl font-serif mb-6 tracking-tight">Codefield<span className="font-cursive text-lg">.</span></div>
-        <div className="text-[10px] tracking-[0.6em] uppercase text-gray-400 max-w-sm mx-auto leading-loose">
+        <div className="text-[10px] tracking-[0.6em] uppercase text-gray-400 max-w-sm mx-auto leading-loose mb-12">
           Absolute Minimalism in Human Collaboration
+        </div>
+        
+        {/* New Contact Section */}
+        <div className="max-w-md px-6">
+          <p className="text-[11px] tracking-[0.3em] uppercase text-neutral-500 font-medium leading-relaxed">
+            Contact <a href="mailto:ksathvik.officials@gmail.com" className="text-black border-b border-black hover:text-neutral-400 hover:border-neutral-400 transition-all">ksathvik.officials@gmail.com</a> for any suggestions or to join our team
+          </p>
         </div>
       </footer>
     </div>
