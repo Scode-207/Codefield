@@ -24,6 +24,7 @@ export interface NewsHeadline {
   id: string;
   source: string;
   headline: string;
+  description?: string;
   date: string;
   url: string;
   category: 'AI Displacement' | 'Layoffs' | 'Hiring Crisis' | 'Market Shift';
@@ -127,49 +128,19 @@ export const MOCK_AI_NEWS: NewsHeadline[] = [
   { 
     id: 'n1', 
     source: 'The Verge', 
-    headline: 'AI Coding Tools Replacing Entry-Level Roles at 40% of Tech Firms.', 
-    date: 'Oct 2025',
-    url: 'https://theverge.com/ai-jobs',
+    headline: 'Klarna says AI assistant doing work of 700 full-time agents.', 
+    description: 'The company claims its OpenAI-powered assistant handled two-thirds of customer service chats in its first month.',
+    date: 'Feb 2024',
+    url: 'https://www.theverge.com/2024/2/28/24085447/klarna-ai-customer-service-assistant-openai-700-jobs',
     category: 'AI Displacement'
   },
   { 
     id: 'n2', 
-    source: 'Crunchbase', 
-    headline: 'Series A Paradox: $15M Raised, But 6 Months to Hire One Lead Engineer.', 
-    date: 'Nov 2025',
-    url: 'https://crunchbase.com/hiring-gap',
-    category: 'Hiring Crisis'
-  },
-  { 
-    id: 'n3', 
-    source: 'Reuters', 
-    headline: 'Big Tech Layoffs Reach 250k: Why Senior Talent is Quietly Leaving Silicon Valley.', 
-    date: 'Dec 2025',
-    url: 'https://reuters.com/tech-layoffs',
-    category: 'Layoffs'
-  },
-  { 
-    id: 'n4', 
-    source: 'Wired', 
-    headline: 'The Ghost in the Code: How AI-Generated Bloat is Sidetracking Human Architects.', 
-    date: 'Jan 2026',
-    url: 'https://wired.com/ai-bloat',
-    category: 'AI Displacement'
-  },
-  { 
-    id: 'n5', 
-    source: 'WSJ', 
-    headline: 'Legacy Systems Panic: Founders Struggle to Find Humans Who Understand Non-AI Code.', 
-    date: 'Feb 2026',
-    url: 'https://wsj.com/talent-drought',
-    category: 'Hiring Crisis'
-  },
-  { 
-    id: 'n6', 
-    source: 'Bloomberg', 
-    headline: 'The Rise of the "Ghost Engineer": Working Anonymously to Bypass Big Tech Bans.', 
-    date: 'Mar 2026',
-    url: 'https://bloomberg.com/ghost-devs',
+    source: 'TechRadar', 
+    headline: 'Nvidia CEO claims the death of coding is near.', 
+    description: 'Jensen Huang suggests that AI will allow everyone to be a programmer through natural language.',
+    date: 'Feb 2024',
+    url: 'https://www.techradar.com/computing/artificial-intelligence/nvidia-ceo-claims-the-death-of-coding-is-near',
     category: 'Market Shift'
   }
 ];
